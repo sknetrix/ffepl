@@ -1,0 +1,1 @@
+Codigo Javascript aportado por Arthur Paendragon
