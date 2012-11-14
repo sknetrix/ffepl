@@ -14,12 +14,14 @@ req.open(
         "sort=relevance&" +  // another good one is "interestingness-desc"
         "per_page=20",
     true);
-req.onload = showPhotos;
+	alert("a");
+req.onload = datos;
+alert("b");
 req.send(null);
 
-function showPhotos() {
+function datos() {
   var photos = req.responseXML.getElementsByTagName("photo");
-
+   alert ("c");
   for (var i = 0, photo; photo = photos[i]; i++) {
     var img = document.createElement("image");
     img.src = constructImageURL(photo);
