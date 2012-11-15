@@ -1,13 +1,19 @@
 {
   "name": "Prueba de concepto",
-  "version": "1.0",
+  "version": "2.0",
   "manifest_version": 2,
-  "description": "la primera extension.",
+  "description": "vamos a detectar un website bueno",
+  "background": { "scripts": ["background.js"] },
   "browser_action": {
     "default_icon": "icon.png",
 	"default_popup": "popup.html"
   },
+  "icons" : {
+    "19" : "iconok.png"
+  },
   "permissions": [
-    "http://api.flickr.com/"
+	"tabs",
+    "http://*/",
+	"https://*/"
   ]
 }
