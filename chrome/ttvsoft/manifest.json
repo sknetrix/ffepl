@@ -1,0 +1,21 @@
+{
+  "name": "Titivisoft",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "titivisoft beta",
+  "background": { "scripts": ["background.js"] },
+  "browser_action": {
+    "default_icon": "img/ebook_search_128.png",
+	"default_popup": "popup.html"
+  },
+  "icons" : {
+    "19" : "iconok.png",
+	"48" : "img/ebook_48.png",
+	"128" : "img/ebook_128.png"
+  },
+  "permissions": [
+	"tabs",
+    "http://*/*",
+	"https://*/*"
+  ]
+}
