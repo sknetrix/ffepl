@@ -20,12 +20,12 @@ function muestrabusqueda() {
   var jobject=JSON.parse(resultados),
      longitud=jobject.length,
      i,enlaces='';
-	var p= document.createElement("p");
+	/*var p= document.createElement("p");
 	p.innerHTML='<a href="www.google.com" >'+'html'+'</a></p>';
 	document.body.appendChild(p);
 	var en=p.getElementsByTagName("a");
 	var magenlace="http://www.google.com";
-	en[0].addEventListener("click",function () {magnetlink (magenlace)},false)
+	en[0].addEventListener("click",function () {magnetlink (magenlace)},false)*/
 	 
   for (i=0;i<longitud;i++)
   {
